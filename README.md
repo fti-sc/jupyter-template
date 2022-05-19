@@ -21,3 +21,7 @@ You can extend the docker-compose.yaml file to add application containers to the
 ## Requirements
 
 Update requirements.txt, please _VERSION_ your packages.
+
+## jupyter.env
+
+Enter anything you would call os.getenv() with, it will load the environment variables into the Jupyter container _only_
