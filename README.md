@@ -4,6 +4,10 @@ Template repo for jupyter notebooks, deployed through docker-compose for multi-l
 
 Fork for non-universal changes.
 
+## Prerequisite
+
+Install Docker desktop for your OS, if Debian https://github.com/RendinaFTI/containers run line by line will work.
+
 ## Quick Start
 
 1. Clone this repo and run 
