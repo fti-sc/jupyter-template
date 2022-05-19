@@ -9,5 +9,4 @@ COPY ./requirements.txt requirements.txt
 RUN sudo apt update && \
     python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
-    pip install -r requirements.txt && \
-    chmod -R 777 /home/jovyan/${GIT_REPO_NAME}
+    pip install -r requirements.txt
