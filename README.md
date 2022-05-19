@@ -2,7 +2,7 @@
 
 Template repo for jupyter notebooks, deployed through docker-compose for multi-layered applications.
 
-Create a new template repository for non-universal changes.
+Fork for non-universal changes.
 
 ## Quick Start
 
