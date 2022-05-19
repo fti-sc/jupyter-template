@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  jupyter:
+    container_name: jupyter
+    build:
+      context: .
+    ports:
+      - "8888:8888"
+    restart: "always"
+    env_file:
+      - jupyter.env
+    volumes:
+      - ./src:/home/jovyan/src
