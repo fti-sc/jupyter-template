@@ -2,8 +2,8 @@ black[jupyter]
 pre-commit
 neo4j==4.1.1
 nltk==3.4.5
-pandas==1.2.0
-numpy==1.19.4
+pandas
+numpy
 requests==2.27.0
 networkx==2.3
 boto3==1.12.13
