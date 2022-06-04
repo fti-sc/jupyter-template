@@ -1,4 +1,6 @@
 FROM jupyter/pyspark-notebook
+#FROM jupyter/base-notebook
+
 ENV PYTHONBUFFERED 1
 EXPOSE 8888
 
